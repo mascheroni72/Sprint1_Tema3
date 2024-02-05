@@ -27,7 +27,7 @@ $resultado = comprobarCaracter($disciplinas,$caracter);
             echo "false" . "<br>"; 
         }
 $disciplinas = array ("musica","pintura", "literatura");
-$caracter = "t"; 
+$caracter = "r"; 
 $resultado = comprobarCaracter($disciplinas, $caracter);
           
         if ($resultado == true){
