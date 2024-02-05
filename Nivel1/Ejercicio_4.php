@@ -15,10 +15,6 @@ $pablo = array (
 );
     foreach ($pablo as $pablo)
     echo $pablo ."<br>";
-/*echo $pablo ["dato1"] . "<br>";
-echo $pablo ["dato2"]. "<br>";
-echo $pablo ["dato3"]. "<br>";
-echo $pablo ["dato4"]. "<br>";*/
 ?>
 </body>
 </html>
