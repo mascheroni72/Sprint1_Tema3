@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-function comprobarCaracter ($disciplinas, $caracter){
+function comprobarCaracter (array $disciplinas, string $caracter){
     
     foreach ($disciplinas as $disciplina) { 
         if (str_contains ($disciplina, $caracter)){ 
@@ -18,10 +18,10 @@ function comprobarCaracter ($disciplinas, $caracter){
     }
 }
 $disciplinas = array ("musica","pintura", "literatura"); 
-$caracter = "i"; 
-$resultado = comprobarCaracter($disciplinas, $caracter); 
+$caracter = 'i'; 
+$resultado = comprobarCaracter($disciplinas,$caracter); 
 
-        if ($resultado == "true"){
+        if ($resultado == true){
             echo "true" . "<br>";
         } else {
             echo "false" . "<br>"; 
@@ -30,7 +30,7 @@ $disciplinas = array ("musica","pintura", "literatura");
 $caracter = "t"; 
 $resultado = comprobarCaracter($disciplinas, $caracter);
           
-        if ($resultado == "true"){
+        if ($resultado == true){
             echo "true". "<br>";
         } else {
             echo "false" . "<br>"; 

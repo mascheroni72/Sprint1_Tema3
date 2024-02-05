@@ -10,13 +10,15 @@
 $pablo = array (
     "dato1"=>"Pablo",
     "dato2"=>"52",
-    "dato3"=>"agustinmascheroni72@gamil.com",
+    "dato3"=>"agustinmascheroni72@gmail.com",
     "dato4"=> "milanesas con papas fritas",
 );
-echo $pablo ["dato1"] . "<br>";
+    foreach ($pablo as $pablo)
+    echo $pablo ."<br>";
+/*echo $pablo ["dato1"] . "<br>";
 echo $pablo ["dato2"]. "<br>";
 echo $pablo ["dato3"]. "<br>";
-echo $pablo ["dato4"]. "<br>";
+echo $pablo ["dato4"]. "<br>";*/
 ?>
 </body>
 </html>
