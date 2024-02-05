@@ -12,12 +12,6 @@ $num_enteros = [72,78,20,47,88];
 foreach ($num_enteros as $numero) {
   echo $numero . "<br>";
 }
-
-
- /* echo $num_enteros [1]. "<br>";
-  echo $num_enteros [2]. "<br>";
-  echo $num_enteros [3]. "<br>"; 
-  echo $num_enteros [4]. "<br>";*/
 ?>
 </body>
 </html>
